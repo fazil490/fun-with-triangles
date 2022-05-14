@@ -6,20 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun With Triangles | Is Triangle</title>
+    <link rel="stylesheet" href="istriangle.css">
 </head>
 
 <body>
-    <h1>Is This A Triangle?</h1>
-    <form onsubmit="return false">
-        <label for="angle1">Enter the Angle 1:</label>
-        <input type="number" class="angle-input" placeholder="Angle 1" required>
-        <label for="angle2">Enter the Angle 2:</label>
-        <input type="number" class="angle-input" placeholder="Angle 2" required>
-        <label for="angle3">Enter the Angle 3:</label>
-        <input type="number" class="angle-input" placeholder="Angle 3" required>
-        <button type="submit" id="is-triangle-btn">Is Triangle?</button>
-    </form>
-    <div id="ouput"></div>
+    <nav id="nav-bar">
+        <h1 id="nav-title">Fun With Triangle</h1>
+        <div id="nav-link">
+            <li class="list-item"><a href="istriangle.html">Is Triangle?</a></li>
+            <li class="list-item"><a href="area.html">Area</a></li>
+            <li class="list-item"><a href="hypotenuse.html">Hypotenuse</a></li>
+            <li class="list-item"><a href="quiz.html">Quiz</a></li>
+        </div>
+    </nav>
+    <div id="container">
+        <h1>Is This A Triangle?</h1>
+        <form onsubmit="return false">
+            <label for="angle1">Enter the Angle 1:</label>
+            <input type="number" class="angle-input" placeholder="  Angle 1" required>
+            <label for="angle2">Enter the Angle 2:</label>
+            <input type="number" class="angle-input" placeholder="  Angle 2" required>
+            <label for="angle3">Enter the Angle 3:</label>
+            <input type="number" class="angle-input" placeholder="  Angle 3" required>
+            <button type="submit" id="is-triangle-btn">Is Triangle?</button>
+        </form> 
+        <div id="output"></div>
+    </div>
+    
 
 
     <script src="istriangle.js"></script>
